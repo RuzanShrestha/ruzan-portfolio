@@ -1,5 +1,13 @@
 import { portfolioData } from '../../data/portfolio'
 
+const navItems = [
+  { label: 'About', href: '#about', id: 'about' },
+  { label: 'Experience', href: '#experience', id: 'experience' },
+  { label: 'Projects', href: '#projects', id: 'projects' },
+  { label: 'Skills', href: '#skills', id: 'skills' },
+  { label: 'Contact', href: '#contact', id: 'contact' },
+]
+
 export function Sidebar() {
   return (
     <aside className="lg:sticky lg:top-0 lg:h-screen border-b border-zinc-200 p-6 lg:border-b-0 lg:border-r lg:p-10 dark:border-zinc-800">
@@ -18,7 +26,7 @@ export function Sidebar() {
           </div>
 
           <p className="leading-7 text-zinc-700 dark:text-zinc-300">
-            {portfolioData.summary}
+            Full-stack developer building scalable, production-ready applications with React, TypeScript, and modern backend systems.
           </p>
 
           <div className="flex flex-col gap-3 text-sm">

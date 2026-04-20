@@ -12,11 +12,25 @@ export default function App() {
         <Sidebar />
 
         <main className="space-y-20 p-6 lg:p-12 xl:p-20">
-          <HeroSection />
-          <ExperienceSection />
-          <ProjectsSection />
-          <SkillsSection />
-          <ContactSection />
+          <section id='about'>
+            <HeroSection />
+          </section>
+
+          <section id="experience">
+            <ExperienceSection />
+          </section>
+
+          <section id="projects">
+            <ProjectsSection />
+          </section>
+
+          <section id="skills">
+            <SkillsSection />
+          </section>
+
+          <section id="contact">
+            <ContactSection />
+          </section>
         </main>
       </div>
     </div>
