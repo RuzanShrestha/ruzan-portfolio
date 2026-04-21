@@ -1,13 +1,5 @@
 import { portfolioData } from '../../data/portfolio'
 
-const navItems = [
-  { label: 'About', href: '#about', id: 'about' },
-  { label: 'Experience', href: '#experience', id: 'experience' },
-  { label: 'Projects', href: '#projects', id: 'projects' },
-  { label: 'Skills', href: '#skills', id: 'skills' },
-  { label: 'Contact', href: '#contact', id: 'contact' },
-]
-
 export function Sidebar() {
   return (
     <aside className="lg:sticky lg:top-0 lg:h-screen border-b border-zinc-200 p-6 lg:border-b-0 lg:border-r lg:p-10 dark:border-zinc-800">
