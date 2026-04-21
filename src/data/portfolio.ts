@@ -9,7 +9,7 @@ export const portfolioData: PortfolioData = {
   email: 'shrestharuzan15@gmail.com',
   github: 'https://github.com/RuzanShrestha',
   linkedin: 'https://www.linkedin.com/in/ruzan-s/',
-  resumeUrl: '/resume.pdf',
+  resumeUrl: `${import.meta.env.BASE_URL}resume.pdf`,
   skills: [
     'JavaScript (React, Next.js, Vite, Node.js, Express.js)',
     'TypeScript',
