@@ -41,7 +41,6 @@ export function ContactSection() {
             ))}
           </div>
         </div>
-
         {/* Right — form */}
         <div className="flex flex-col gap-3">
           <div className="grid grid-cols-2 gap-3">
@@ -80,6 +79,7 @@ export function ContactSection() {
             </p>
           )}
         </div>
+        
       </div>
     </section>
   )

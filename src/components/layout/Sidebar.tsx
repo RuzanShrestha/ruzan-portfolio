@@ -1,4 +1,6 @@
 import { portfolioData } from '../../data/portfolio'
+import { Mail, FileText } from 'lucide-react'
+import { FaGithub, FaLinkedin } from 'react-icons/fa'
 
 export function Sidebar() {
   return (
@@ -28,17 +30,37 @@ export function Sidebar() {
               href={portfolioData.resumeUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="underline"
+              className="flex items-center gap-2 text-zinc-400 hover:text-white transition-colors"
             >
+              <FileText size={16} />
               View Resume
             </a>
-            <a href={`mailto:${portfolioData.email}`} className="underline">
+
+            <a
+              href={`mailto:${portfolioData.email}`}
+              className="flex items-center gap-2 text-zinc-400 hover:text-white transition-colors"
+            >
+              <Mail size={16} />
               Contact Me
             </a>
-            <a href={portfolioData.github} className="underline" target="_blank" rel="noreferrer">
+
+            <a
+              href={portfolioData.github}
+              target="_blank"
+              rel="noreferrer"
+              className="flex items-center gap-2 text-zinc-400 hover:text-white transition-colors"
+            >
+              <FaGithub size={16} />
               GitHub
             </a>
-            <a href={portfolioData.linkedin} className="underline" target="_blank" rel="noreferrer">
+
+            <a
+              href={portfolioData.linkedin}
+              target="_blank"
+              rel="noreferrer"
+              className="flex items-center gap-2 text-zinc-400 hover:text-white transition-colors"
+            >
+              <FaLinkedin size={16} />
               LinkedIn
             </a>
           </div>
