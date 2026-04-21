@@ -5,8 +5,6 @@ import { HeroSection } from './components/sections/HeroSection'
 import { ProjectsSection } from './components/sections/ProjectsSection'
 import { SkillsSection } from './components/sections/SkillsSection'
 import { SectionNav } from './components/navigation/SectionNav'
-import * as Icons from "lucide-react";
-console.log(Icons);
 
 export default function App() {
   return (
