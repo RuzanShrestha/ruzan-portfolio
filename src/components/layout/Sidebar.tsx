@@ -66,7 +66,7 @@ export function Sidebar() {
           </div>
         </div>
 
-        <p className="text-xs text-zinc-500">© 2026 Ruzan Shrestha</p>
+        
       </div>
     </aside>
   )

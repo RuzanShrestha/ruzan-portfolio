@@ -42,6 +42,7 @@ export default function App() {
             <section id="contact">
               <ContactSection />
             </section>
+            <p className="text-xs text-zinc-500">© 2026 Ruzan Shrestha</p>
           </main>
         </div>
 
