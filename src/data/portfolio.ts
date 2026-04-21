@@ -44,8 +44,8 @@ export const portfolioData: PortfolioData = {
       description:
         'A full-stack Chrome extension that leverages LLaMA 3 (via Groq Cloud) to automatically categorize bookmarks. Engineered with a minimalist popup UI and a stateless Express.js backend to prioritize user privacy and performance.',
       tech: ['JavaScript', 'Node.js', 'Express.js', 'Chrome APIs', 'Groq Cloud', 'Render'],
-      liveUrl: '#',
-      githubUrl: '#',
+      liveUrl: 'https://chromewebstore.google.com/detail/nkllfeojmmgaklpkehjbjkkoobgfdcoh?utm_source=item-share-cb',
+      githubUrl: 'https://github.com/RuzanShrestha/BookmarkExtensionFrontend',
     },
     {
       title: 'AI Chatbot',
@@ -54,7 +54,7 @@ export const portfolioData: PortfolioData = {
         'A real-time AI interface featuring a responsive React frontend and an Express.js backend. Integrated Meta’s LLaMA 3 for intelligent language processing, focusing on component-driven development and scalable state management.',
       tech: ['React', 'Vite', 'Express.js', 'Meta LLaMA 3', 'Groq Cloud', 'Render'],
       liveUrl: 'https://ruzanshrestha.github.io/chatbot',
-      githubUrl: '#',
+      githubUrl: 'https://github.com/RuzanShrestha/chatbot',
     },
   ],
 }
